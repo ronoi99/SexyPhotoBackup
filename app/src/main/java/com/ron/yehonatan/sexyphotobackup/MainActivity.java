@@ -43,7 +43,6 @@ public class MainActivity extends Activity {
 
     /** Called when the user clicks the Send button */
     public void sendMessage(View view) {
-        R.id.
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
         editText.append("!!!!!111");
